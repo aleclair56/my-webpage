@@ -1,0 +1,140 @@
+/***** base styles *****/
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #2b2b2b;
+}
+/***** Grid *****/
+
+#about, #work, #contact {
+	height: 600px;
+}
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+.half-width {
+	width: 600px;
+	float:left;
+}
+.third-width {
+	width: 400px;
+	float:left;
+}
+.name {
+	width: 700px;
+	float: left;
+	margin: 0 auto;
+}
+.nav {
+	width: 300px
+	margin: 0 auto;
+}
+/***** Header *****/
+header {
+	height: 900px;
+	background: url(../img/salmon.png);
+	background-size: cover;
+	color: white;
+	font-family: 'black ops one'
+}
+header h1 {
+	padding: 35px 0 65px 25px;
+	font-size: 50px;
+	font-family: 'black ops one'
+	color: white;
+}
+nav {
+	float:right;
+	padding: 75px 25px;
+}
+nav ul{
+	word-spacing: 20px;
+}
+nav ul li {
+	display: inline-block;
+}
+nav ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 26px;
+	color: white;
+	padding-left: 20px;
+}
+header h2 span {
+	color: red;
+}
+/***** about *****/
+
+#about .full-width {
+	padding: 20px 0;
+}
+#about h2 {
+	font-size: 36px;
+	padding-left: 115px;
+	font-family: 'Lora', serif;
+}
+#about p {
+	font-size: 21px;
+	color: black;
+	line-height: 40px;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: center;
+}
+#about img {
+	padding-left: 50px;
+	padding-right:50px;
+}
+#about {
+	background-color: #f2f2f2;
+}
+/***** Work *****/
+
+#work {
+	background-color:#84a3e1;
+	text-align: center;
+}
+#work .full-width {
+	padding: 60px 0;
+}
+#work img {
+	padding-bottom: 30px;
+}
+#work h3 {
+	font-size: 24px;
+	line-height: 32px;
+	width: 190px;
+	margin: 0 auto;
+	color: white;
+}
+#work p {
+	font-size: 18px;
+	font-family: Lora, serif;
+	line-height: 30px;
+	padding: 0 50px;
+	color: white;
+}
+/***** Contact *****/
+
+#contact {
+	background-color: #ebebeb;
+	height: 100px;
+	position: relative; 
+	clear: both;
+}
+#contact a {
+	text-decoration: none;
+	color: #c49075;
+	font-weight: bold;
+	font-size: 28px;
+}
+#contact ul {
+	list-style: none;
+	word-spacing: 100px;
+	padding-left: 300px;
+	padding-top: 25px;
+}
+#contact ul li {
+	display: inline;
+}
